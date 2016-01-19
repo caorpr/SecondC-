@@ -8,12 +8,12 @@
 #ifndef CONTROLLER_SECONDCONTROLLER_H_
 #define CONTROLLER_SECONDCONTROLLER_H_
 
-class AfternoonController
+class SecondController
 {
 private:
 	int classCount;
 public:
-	AfternoonController();
+	SecondController();
 	void setClassCount(int classCount);
 	int getClassCount();
 	void start();

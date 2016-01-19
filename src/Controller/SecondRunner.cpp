@@ -7,6 +7,8 @@
 
 int main()
 {
+	SecondController * baseController = new AfternoonController();
+	baseController->start();
 	return 0;
 }
 
