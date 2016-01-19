@@ -27,5 +27,11 @@ int SecondController :: getClassCount()
 void SecondController :: start()
 {
 	cout << "Welcome to C++ class #2!!" << endl;
+	cout << "The current value of classCount is " << getClassCount() << endl;
+	int newCount;
+	cout << "Choose a new number for class" << endl;
+	cin >> newCount;
+	this->setClassCount(newCount);
+	cout << "The current value of classCount is " << getClassCount() << endl;
 }
 
